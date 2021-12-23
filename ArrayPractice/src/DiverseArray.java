@@ -29,6 +29,7 @@ public class DiverseArray {
     }
 
     // RowSums
+    //use arraySum to add value, once finished, continue to second row
     public static int[] rowSums(int arr2D[][]) {
         int Larray[] = new int[arr2D.length];
         for (int i = 0; i < Larray.length; i++) {
